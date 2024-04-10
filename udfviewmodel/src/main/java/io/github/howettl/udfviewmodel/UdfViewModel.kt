@@ -1,4 +1,4 @@
-package com.howettl.udfviewmodel
+package io.github.howettl.udfviewmodel
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope

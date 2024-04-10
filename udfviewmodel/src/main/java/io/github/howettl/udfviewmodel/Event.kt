@@ -1,4 +1,4 @@
-package com.howettl.udfviewmodel
+package io.github.howettl.udfviewmodel
 
 interface MutationEvent
 

@@ -4,7 +4,7 @@ plugins {
 }
 
 android {
-    namespace = "com.howettl.udfviewmodel"
+    namespace = "io.github.howettl.udfviewmodel"
     compileSdk = 34
 
     defaultConfig {
@@ -32,7 +32,9 @@ android {
 dependencies {
 
     testImplementation(libs.junit)
-    androidTestImplementation(libs.androidx.junit)
-    androidTestImplementation(libs.androidx.espresso.core)
     implementation(libs.lifecycle.viewmodel.ktx)
+    testImplementation(libs.mockk)
+    testImplementation(libs.kotlinx.coroutines.test)
+    testImplementation(libs.turbine)
+    testImplementation(libs.truth)
 }
