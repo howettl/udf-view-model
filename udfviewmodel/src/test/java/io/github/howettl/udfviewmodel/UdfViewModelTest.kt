@@ -1,10 +1,11 @@
 package io.github.howettl.udfviewmodel
 
-import app.cash.turbine.*
+import app.cash.turbine.test
 import com.google.common.truth.Truth.assertThat
-import io.github.howettl.udfviewmodel.UdfViewModelTest.Effect.*
+import io.github.howettl.udfviewmodel.UdfViewModelTest.Effect.OnContinuePressed
 import io.github.howettl.udfviewmodel.UdfViewModelTest.Mutation.*
-import io.mockk.*
+import io.mockk.spyk
+import io.mockk.verify
 import kotlinx.coroutines.test.runTest
 import org.junit.Rule
 import org.junit.Test
