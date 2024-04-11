@@ -19,6 +19,8 @@ state and dispatch an event from `onViewStateInitialized` to do the async setup.
 `Mutation`s will always be applied in sequence, in the order they were dispatched. Duplicate view states are not
 emitted.
 
+Read more about the UDF pattern [here](https://developer.android.com/develop/ui/compose/architecture#udf).
+
 ## Download
 
 ```kotlin
