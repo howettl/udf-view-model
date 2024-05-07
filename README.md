@@ -28,7 +28,7 @@ repositories {
   mavenCentral()
 }
 dependencies {
-  testImplementation("io.github.howettl:udfviewmodel:<latest-version>")
+  implementation("io.github.howettl:udfviewmodel:<latest-version>")
 }
 ```
 
